@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Nama"
+        android:layout_marginHorizontal="20dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/txtNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="simpan"
+        android:padding="10dp"
+        android:layout_marginHorizontal="40dp"/>
+
+    <Button
+        android:id="@+id/btGetAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get all"
+        android:padding="10dp"
+        android:layout_marginHorizontal="40dp"/>
+
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
